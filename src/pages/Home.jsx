@@ -138,7 +138,7 @@ function HeroSection() {
                 className={`font-heading font-bold leading-[0.88] tracking-tight ${
                   word === 'WITH CONFIDENCE.' ? 'text-green-500' : 'text-white'
                 }`}
-                style={{ fontSize: 'clamp(2.5rem, 10vw, 8rem)' }}
+                style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}
               >
                 {word}
               </h1>
@@ -759,7 +759,7 @@ function CTASection() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>
+          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}>
             GET BEHIND<br />
             <span className="text-green-500">THE WHEEL.</span>
           </h2>
